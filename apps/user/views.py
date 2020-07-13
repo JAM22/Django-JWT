@@ -6,7 +6,7 @@ from rest_framework.permissions import IsAuthenticated
 
 class UserViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows users to be viewed or edited.
+        API endpoint that allows users to be viewed or edited.
     """
     permission_classes = [IsAuthenticated]
     queryset = User.objects.all()

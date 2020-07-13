@@ -1,5 +1,5 @@
 """
-WSGI config for hyl_back project.
+WSGI config for Django-JWT project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
